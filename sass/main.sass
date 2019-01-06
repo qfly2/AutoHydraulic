@@ -5,35 +5,42 @@ body
 .container
     max-width: 1632px
     
+    
 
 .header
     margin-bottom: px
     color: #5a70b2
     background: #ffffff
+    
+   
 .header-logo
     margin-top: 20px
 .header-menu
 
 .menu
     list-style-type: none
-    margin: px auto
+    margin: 0px auto
     margin-top: 72px
     font-size: 18px
+    color: #5a70b2
 .menu-item
     margin: 0 25px
+    
 
 li
     list-style-type: none
+    
 
 i
     color: #5b5a5b
 
 .header-information
     font-size: 14px
+    margin-left: 60px
 
 .information-item
     margin-top: 15px 
-    margin-left: 60px
+   
 
     
 .information-item2
@@ -44,9 +51,14 @@ i
 
 a
     color: #5a70b2
+    text-decoration: none
+
+a:hover
+    color: #5a70b2
+    text-decoration: none
 
 .middle
-    background-image: url(img/1001.png)
+    background-image: url(../img/1001.png)
     background-size: cover
     height: 470px
     margin-left: 0
@@ -57,7 +69,7 @@ a
     color: #fff
 
 .content
-    
+    flex-wrap: wrap
 
 .content-left
     
@@ -82,7 +94,7 @@ a
     color: #ffffff
 
 .watch
-    margin-left: 250px
+    
     background: none
     color: #ffffff
     border: 2px solid #00deff
@@ -96,18 +108,19 @@ a
   
     
 .fiting
-    margin-left: 125px
+    margin-left: auto
     margin-top: 140px
 
 .right
     font-size: 80px
-    margin-left: 
+    margin-left: auto
     margin-top: 190px 
 
 .main
 
 .search
     margin-top: 98px
+    flex-wrap: wrap
 .search-text
 
 .caps
@@ -137,7 +150,7 @@ a
     width: 34px 
     height: 34px 
     border: none 
-    background: url(img/6.png) no-repeat 50% 50% /* Параметры фона */
+    background: url(../img/6.png) no-repeat 50% 50% /* Параметры фона */
     margin-top: 7px
     float: right 
     margin-right: 7px
@@ -155,17 +168,22 @@ a
 
 .katalog-tittle
     width: 100%
-    border-bottom: 5px solid #5a70b2
-    padding-right: 1550px
+   
+   
     color: #5a70b2
     font-size: 30px
     padding-bottom: 15px
+
+hr
+    width: 100%
+    height: 5px
+    background: #5a70b2
 
 .small-logo
     margin-right: 20px
 
 .gallerry
-   
+   display: inline-flexbox
 
 .gallery-item
     width: 380px
@@ -178,3 +196,171 @@ a
 
 .gallery-text
     margin-top: 20px
+
+.katalog-botomm
+    margin-top: 80px
+    margin-left: auto
+    margin-right: auto
+    text-align: center 
+    font-size: 18px
+    color: #5a70b2
+    margin-bottom: 50px
+
+.media
+    background: #5b5a5b
+    min-height: 700px
+    
+
+.media-text
+    margin-top: 90px
+    color: #ffffff
+
+.media-text-title
+    font-size: 30px
+
+.media-text-second
+    font-size: 18px
+
+.media-video
+    margin-top: 90px
+    max-width: 800px
+
+.manufacturers
+    padding-top: 60px
+    background: #fff
+
+.manufacturers-tittle
+
+    width: 100%
+    color: #5a70b2
+    font-size: 30px
+    padding-bottom: 15px
+
+.manufacturers-sponsors
+   justify-content: center
+   padding-top: 100px
+   padding-bottom: 130px 
+.left-2
+    font-size: 80px 
+    
+    margin-right: auto
+    
+    
+
+.right-2
+
+    font-size: 80px
+    margin-left: auto
+
+.angle-2
+    color: #bfbebf
+    
+.navigation
+    min-height: 690px
+    background: url(../img/22.png)
+    width: 100%
+    background-size: cover
+.form
+    
+    min-height: 690px
+
+.form-title
+    color: #5a70b2
+    font-size: 30px
+    padding-bottom: 15px
+    
+.form-information
+    font-size: 18px
+    margin-right: auto
+    margin-left: -30px
+    color: #5a70b2
+    
+.big
+
+.info
+    margin-right: auto 
+    text-align: left 
+    display: inline-flex
+
+#first
+    margin-left: 50px
+
+.form-chekin-text
+    color: #5a70b2
+
+.name
+    
+    
+    border: 2px solid #c1c1c1
+    border-radius: 3px
+    width: 495px
+    cursor: pointer
+    margin-top: 20px
+
+.message
+    border: 2px solid #c1c1c1
+    border-radius: 3px
+    width: 495px
+    cursor: pointer
+    height: 130px
+    margin-top: 30px
+    
+.send
+    background: #5a70b2
+    color: #ffffff
+    border: 2px solid #dadada
+    border-radius: 4px
+    width: 200px
+    cursor: pointer
+    margin-left: 297px
+    margin-top: 35px
+
+.footer
+    background: #5b5a5b
+
+.footer-logo
+    margin-top: 30px
+    margin-bottom: 20px
+
+.footer-menu
+    margin-left: auto
+    color: #ffffff
+
+.nav
+    margin-top: 72px
+    font-size: 18px
+    color: #5a70b2
+
+.footer-item
+    margin-left: 25px
+    a
+        color: #ffffff
+
+@media screen and (max-width:1390px)
+    .middle
+        display: none
+
+@media screen and (max-width:989px)
+    .header
+        text-align: center
+        justify-content: center
+        display: block
+    .header-logo
+        margin-left: auto
+        margin-right: auto
+        text-align: center
+        
+    .header-menu
+        text-align: center
+        margin-left: auto
+        margin-right: auto
+
+    .menu
+        text-align: center
+        margin-left: auto
+        margin-right: auto
+
+    .header-info
+        margin-left: auto
+        margin-right: auto
+       
